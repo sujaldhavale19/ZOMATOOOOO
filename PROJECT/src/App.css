@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Background color */
+body {
+  background-color: #fff5f5;
+  font-family: "Arial", sans-serif;
+}
+
+/* Form container */
+.form-container {
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Custom Input */
+.custom-input {
+  border-radius: 8px;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+}
+
+/* Custom Button */
+.custom-btn {
+  background-color: #d90429;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.custom-btn:hover {
+  background-color: #a80120;
+}
