@@ -1,0 +1,32 @@
+body {
+    background-color: #fff5f5;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .form-container {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .custom-input {
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+  }
+  
+  .custom-btn {
+    background-color: #d90429;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .custom-btn:hover {
+    background-color: #a80120;
+  }
+  
