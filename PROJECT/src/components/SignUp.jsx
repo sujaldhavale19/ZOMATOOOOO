@@ -1,7 +1,7 @@
 import React from 'react'
 import './SignUp.css'
 
-function Registration() {
+function SignUp() {
   return (
     <div className="container d-flex justify-content-center align-items-center vh-100 text-start">
         <div className="form-container p-4 shadow-lg rounded">
@@ -31,4 +31,4 @@ function Registration() {
   )
 }
 
-export default Registration
+export default SignUp

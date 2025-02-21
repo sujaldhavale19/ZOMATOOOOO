@@ -1,10 +1,9 @@
 import { Navbar, Nav, Container, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./nav.css"
 
 const nav = () => {
   return (
-    <Navbar class = "nav-bg m-auto" variant="dark" expand="lg" >
+    <Navbar class = "m-auto" variant="dark" expand="lg" >
           <Nav className="ms-3">
             <div className = "nav-container m-auto">
               <Nav.Link as={Link} to="/signUp">
