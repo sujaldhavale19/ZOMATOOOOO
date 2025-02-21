@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -64,5 +64,75 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+ */
+
+ /* index.css */
+
+/* Global styling for the entire app */
+body {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"); /* Light gray background */
+  background-size:cover;
+  height:100vh;
+  font-family: Arial, sans-serif;
+  margin: 0 ;
+  padding: 0;
+}
+
+/* Navbar customization */
+.navbar {
+  border-bottom: 0px solid #ddd; /* Adds a border under the navbar */
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+  color: white; /* Keep text fully visible */
+  padding: 10px 20px;
+}
+
+/* Adjust navbar brand */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+/* Styling for search bar input */
+.form-control {
+  width: 100%; /* Custom width for search bar */
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Navbar items spacing */
+.nav-link {
+  margin-right: 20px;
+  color: #333;
+}
+
+/* Icon styling */
+.bi {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+/* Cart and login button alignment */
+.navbar .nav-link {
+  padding-right: 20px;
+}
+
+/* Ensure the navbar items stay aligned and look clean */
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Responsive Design */
+@media (min-width : 768px){
+  .form-control{
+    width: 100%;
   }
 }
